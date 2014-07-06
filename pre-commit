@@ -1,5 +1,8 @@
 #!/bin/sh
 
+cd $GIT_DIR/../
+echo `pwd`
 echo "Generating images..."
 ./build.sh
+git add dist
 
