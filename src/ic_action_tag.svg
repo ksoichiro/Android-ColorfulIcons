@@ -26,17 +26,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="12.791075"
-     inkscape:cy="14.923728"
+     inkscape:zoom="16"
+     inkscape:cx="12.127644"
+     inkscape:cy="11.919526"
      inkscape:document-units="px"
      inkscape:current-layer="icon"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="852"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1237"
+     inkscape:window-height="777"
+     inkscape:window-x="20"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata2995">
     <rdf:RDF>
@@ -68,9 +68,19 @@
      id="icon"
      transform="translate(0,-1028.3622)">
     <path
-       style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647"
-       d="m -0.36478,1028.3622 0,11.9816 12.71574,12.0184 12.01382,-11.9834 -12.01105,-12.0166 -12.71851,0 z m 6.11468,4.1056 c 0.98842,0 1.78983,0.8014 1.78983,1.7899 0,0.9884 -0.80141,1.7898 -1.78983,1.7898 -0.98841,0 -1.78982,-0.8014 -1.78982,-1.7898 0,-0.9885 0.80141,-1.7899 1.78982,-1.7899 z"
-       id="path3796"
+       style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
+       d="m -0.0097667,1028.3648 0,12.0208 c 0.00173,0.013 0.022422,0.012 0.022097,0.022 -1.14e-5,0.5746 0.2524822,1.0718 0.6408156,1.4363 l 9.8773981,9.9216 c 0.364593,0.3884 0.861687,0.5967 1.436311,0.5967 0.574712,0 1.138053,-0.2305 1.502601,-0.6188 l 9.855301,-9.8995 c 0.388489,-0.3644 0.685017,-0.9059 0.68501,-1.4805 -9e-6,-0.5747 -0.274599,-1.0497 -0.662913,-1.4142 l -9.877398,-9.8774 c -0.364541,-0.3884 -0.883734,-0.7072 -1.458407,-0.7071 l -12.0208158,0 z m 2.010835,2.0109 9.9878837,0 10.00998,10.0099 -9.987883,9.9879 -10.0099807,-10.01 0,-9.9878 z"
+       id="path3753"
        inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
+       id="path3805"
+       sodipodi:cx="7.7781744"
+       sodipodi:cy="7.4271846"
+       sodipodi:rx="2.3864853"
+       sodipodi:ry="2.3864853"
+       d="m 10.16466,7.4271846 a 2.3864853,2.3864853 0 1 1 -4.7729709,0 2.3864853,2.3864853 0 1 1 4.7729709,0 z"
+       transform="matrix(0.8380525,0,0,0.8380525,1.4814815,1030.1378)" />
   </g>
 </svg>
