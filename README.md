@@ -19,3 +19,8 @@ But if you want to build them on your own, then just run:
 PNG files will be generated in `dist` directory.
 Note that the existing files are removed while executing it.
 
+## License
+
+Copyright (c) 2014 Soichiro Kashima  
+Licensed under MIT license.  
+See the bundled [LICENSE](LICENSE) file for details.
