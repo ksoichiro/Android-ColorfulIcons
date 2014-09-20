@@ -1,4 +1,4 @@
-# app-icons
+![](all.png "app-icons")
 
 Application icons mainly for Android.
 
