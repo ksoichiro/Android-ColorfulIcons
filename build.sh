@@ -23,8 +23,10 @@ if [ -d dist ]; then
   mkdir dist
 fi
 
+mkdir -p .tmp
 for i in $(find src -type f -name "*.svg"); do
   file=`basename $i`
+  sed -e 's/\(id=\"background\"\)/\1 style=\"display:none\"/' $i > .tmp/$file
   base=`echo $file | sed -e 's/\.[^\.]*$//'`
   docker run -t -i -v `pwd`:/workspace \
     -w /workspace \
@@ -32,10 +34,11 @@ for i in $(find src -type f -name "*.svg"); do
     .libs/export_icons/export_icons.sh \
     -p /usr/bin/inkscape \
     -t Android \
-    -i $i \
+    -i .tmp/$file \
     -s 36 \
     -o dist \
     -b $base \
     -f
   rm -f dist/$base/Android/*.png
 done
+rm -rf .tmp

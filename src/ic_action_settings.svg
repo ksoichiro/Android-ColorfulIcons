@@ -25,15 +25,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="892.14286"
-     inkscape:cy="-51.428571"
+     inkscape:cx="365"
+     inkscape:cy="520"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="icon"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1032"
+     inkscape:window-width="1440"
+     inkscape:window-height="852"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1">
@@ -71,12 +71,10 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Background"
-     sodipodi:insensitive="true"
-     style="display:none">
+     id="background"
+     inkscape:label="background">
     <rect
-       style="opacity:0.8;fill:#333333;fill-opacity:1;stroke:none"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
        id="rect4314"
        width="1024"
        height="1024"
@@ -84,9 +82,9 @@
        y="0" />
   </g>
   <g
-     inkscape:label="Icon"
+     inkscape:label="icon"
      inkscape:groupmode="layer"
-     id="layer1"
+     id="icon"
      transform="translate(0,-28.362183)">
     <path
        style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
