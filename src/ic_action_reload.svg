@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1024"
-   height="1024"
+   width="24"
+   height="24"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.45254834"
-     inkscape:cx="641.24568"
-     inkscape:cy="406.08926"
+     inkscape:zoom="14.481547"
+     inkscape:cx="1.3256618"
+     inkscape:cy="8.1256673"
      inkscape:document-units="px"
      inkscape:current-layer="icon"
      showgrid="false"
@@ -49,24 +49,27 @@
   <g
      inkscape:groupmode="layer"
      id="background"
-     inkscape:label="Background">
+     inkscape:label="Background"
+     transform="translate(0,-1000)"
+     sodipodi:insensitive="true">
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(0,-28.3622)"
+       style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect3758"
-       width="1024"
-       height="1024"
+       width="24"
+       height="24"
        x="0"
-       y="0" />
+       y="1028.3622" />
   </g>
   <g
      inkscape:label="icon"
      inkscape:groupmode="layer"
      id="icon"
-     transform="translate(0,-28.362183)">
+     transform="translate(0,-1028.3622)">
     <path
        style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
-       d="M 529 86 L 289 236 L 529 386 L 529 256.21875 C 662.45694 264.97633 768 376.02413 768 511.78125 C 768 653.25595 653.3849 767.96875 512 767.96875 C 370.6151 767.96875 256 653.25595 256 511.78125 C 256 470.20605 265.90188 430.9678 283.46875 396.25 L 229 362.1875 C 205.3794 406.83668 192 457.74481 192 511.78125 C 192 688.62461 335.26888 832 512 832 C 688.73112 832 832 688.62461 832 511.78125 C 832 340.64388 697.82839 200.87335 529 192.03125 L 529 86 z "
-       transform="translate(0,28.362183)"
-       id="path3755" />
+       d="m 12.531251,1028.706 -7.500001,4.6876 7.500001,4.6874 0,-4.0557 C 16.70178,1034.299 20,1037.7693 20,1042.0117 c 0,4.4211 -3.581721,8.0059 -8,8.0059 -4.4182782,0 -8,-3.5848 -8,-8.0059 0,-1.2992 0.3094337,-2.5255 0.8583984,-3.6104 L 3.15625,1037.3369 C 2.4181063,1038.7321 2,1040.323 2,1042.0117 c 0,5.5263 4.4771525,10.0068 10,10.0068 5.522848,0 10,-4.4805 10,-10.0068 0,-5.3481 -4.192863,-9.7158 -9.468749,-9.9923 l 0,-3.3134 z"
+       id="path3755"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

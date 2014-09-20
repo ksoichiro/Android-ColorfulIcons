@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1024"
-   height="1024"
+   width="24"
+   height="24"
    id="svg2990"
    version="1.1"
    inkscape:version="0.48.2 r9819"
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="599.6897"
-     inkscape:cy="600.8122"
+     inkscape:zoom="11.2"
+     inkscape:cx="12.791075"
+     inkscape:cy="14.923728"
      inkscape:document-units="px"
      inkscape:current-layer="icon"
      showgrid="false"
@@ -52,23 +52,24 @@
   <g
      inkscape:groupmode="layer"
      id="background"
-     inkscape:label="background">
+     inkscape:label="background"
+     transform="translate(0,-1000)">
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect2984"
-       width="640"
-       height="640"
-       x="192"
-       y="192" />
+       width="24"
+       height="24"
+       x="0"
+       y="1000" />
   </g>
   <g
      inkscape:label="icon"
      inkscape:groupmode="layer"
      id="icon"
-     transform="translate(0,-28.362183)">
+     transform="translate(0,-1028.3622)">
     <path
        style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647"
-       d="M 192,229.8027 192,539.88539 521.08292,850.92167 832,540.7913 521.15444,229.8027 192,229.8027 z m 158.24778,106.25344 c 25.58023,0 46.3205,20.74029 46.3205,46.3205 0,25.58022 -20.74027,46.32049 -46.3205,46.32049 -25.58022,0 -46.32049,-20.74027 -46.32049,-46.32049 0,-25.58021 20.74027,-46.3205 46.32049,-46.3205 z"
+       d="m -0.36478,1028.3622 0,11.9816 12.71574,12.0184 12.01382,-11.9834 -12.01105,-12.0166 -12.71851,0 z m 6.11468,4.1056 c 0.98842,0 1.78983,0.8014 1.78983,1.7899 0,0.9884 -0.80141,1.7898 -1.78983,1.7898 -0.98841,0 -1.78982,-0.8014 -1.78982,-1.7898 0,-0.9885 0.80141,-1.7899 1.78982,-1.7899 z"
        id="path3796"
        inkscape:connector-curvature="0" />
   </g>

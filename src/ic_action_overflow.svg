@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1024"
-   height="1024"
+   width="24"
+   height="24"
    id="svg4909"
    version="1.1"
    inkscape:version="0.48.2 r9819"
    sodipodi:docname="ic_action_overflow.svg"
-   enable-background="new">
+   style="enable-background:new">
   <defs
      id="defs4911" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="65.546689"
-     inkscape:cy="520"
+     inkscape:zoom="5.6"
+     inkscape:cx="35.457481"
+     inkscape:cy="-2.8282787"
      inkscape:document-units="px"
-     inkscape:current-layer="icon"
+     inkscape:current-layer="background"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="852"
@@ -52,50 +52,51 @@
      inkscape:groupmode="layer"
      id="background"
      inkscape:label="background"
-     sodipodi:insensitive="true">
+     transform="translate(0,-1000)">
     <rect
-       style="opacity:0.8;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(0,-28.3622)"
+       style="enable-background:new;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        id="rect5426"
-       width="640"
-       height="640"
-       x="192"
-       y="192" />
+       width="24"
+       height="24"
+       x="-8.8817842e-16"
+       y="1028.3622" />
   </g>
   <g
      inkscape:label="icon"
      inkscape:groupmode="layer"
      id="icon"
-     transform="translate(0,-28.362183)"
+     transform="translate(0,-1028.3622)"
      style="display:inline">
     <path
        sodipodi:type="arc"
-       style="fill:#ffffff;fill-opacity:0.94117647;stroke:none;opacity:0.80000000000000004"
+       style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
        id="path3757"
        sodipodi:cx="521.23871"
        sodipodi:cy="288.60895"
        sodipodi:rx="92.934036"
        sodipodi:ry="92.934036"
-       d="m 614.17274,288.60895 c 0,51.32605 -41.60798,92.93403 -92.93403,92.93403 -51.32605,0 -92.93404,-41.60798 -92.93404,-92.93403 0,-51.32605 41.60799,-92.93404 92.93404,-92.93404 51.32605,0 92.93403,41.60799 92.93403,92.93404 z"
-       transform="matrix(0.6886605,0,0,0.6886605,153.04349,99.608601)" />
+       d="m 614.17274,288.60895 a 92.934036,92.934036 0 1 1 -185.86807,0 92.934036,92.934036 0 1 1 185.86807,0 z"
+       transform="matrix(0.02582477,0,0,0.02582477,-1.4608691,1023.8339)" />
     <path
-       transform="matrix(0.6886605,0,0,0.6886605,153.04349,340.60859)"
-       d="m 614.17274,288.60895 c 0,51.32605 -41.60798,92.93403 -92.93403,92.93403 -51.32605,0 -92.93404,-41.60798 -92.93404,-92.93403 0,-51.32605 41.60799,-92.93404 92.93404,-92.93404 51.32605,0 92.93403,41.60799 92.93403,92.93404 z"
+       transform="matrix(0.02582477,0,0,0.02582477,-1.4608691,1032.8714)"
+       d="m 614.17274,288.60895 a 92.934036,92.934036 0 1 1 -185.86807,0 92.934036,92.934036 0 1 1 185.86807,0 z"
        sodipodi:ry="92.934036"
        sodipodi:rx="92.934036"
        sodipodi:cy="288.60895"
        sodipodi:cx="521.23871"
        id="path3759"
-       style="fill:#ffffff;fill-opacity:0.94117647000000004;stroke:none;opacity:0.8"
+       style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
        sodipodi:type="arc" />
     <path
        sodipodi:type="arc"
-       style="fill:#ffffff;fill-opacity:0.94117647;stroke:none;opacity:0.80000000000000004"
+       style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
        id="path3761"
        sodipodi:cx="521.23871"
        sodipodi:cy="288.60895"
        sodipodi:rx="92.934036"
        sodipodi:ry="92.934036"
-       d="m 614.17274,288.60895 c 0,51.32605 -41.60798,92.93403 -92.93403,92.93403 -51.32605,0 -92.93404,-41.60798 -92.93404,-92.93403 0,-51.32605 41.60799,-92.93404 92.93404,-92.93404 51.32605,0 92.93403,41.60799 92.93403,92.93404 z"
-       transform="matrix(0.6886605,0,0,0.6886605,153.04349,581.6086)" />
+       d="m 614.17274,288.60895 a 92.934036,92.934036 0 1 1 -185.86807,0 92.934036,92.934036 0 1 1 185.86807,0 z"
+       transform="matrix(0.02582477,0,0,0.02582477,-1.4608691,1041.9089)" />
   </g>
 </svg>

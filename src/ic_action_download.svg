@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1024"
-   height="1024"
+   width="24"
+   height="24"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
@@ -24,8 +24,9 @@
        inkscape:label="Drop shadow"
        width="1.5"
        height="1.5"
-       x="-.25"
-       y="-.25">
+       x="-0.25"
+       y="-0.25"
+       color-interpolation-filters="sRGB">
       <feGaussianBlur
          id="feGaussianBlur4271"
          in="SourceAlpha"
@@ -57,8 +58,9 @@
        inkscape:label="Drop shadow"
        width="1.5"
        height="1.5"
-       x="-.25"
-       y="-.25">
+       x="-0.25"
+       y="-0.25"
+       color-interpolation-filters="sRGB">
       <feGaussianBlur
          id="feGaussianBlur4383"
          in="SourceAlpha"
@@ -93,11 +95,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="487.46547"
-     inkscape:cy="648.1509"
+     inkscape:zoom="11.2"
+     inkscape:cx="4.2614782"
+     inkscape:cy="2.5453544"
      inkscape:document-units="px"
-     inkscape:current-layer="icon"
+     inkscape:current-layer="background"
      showgrid="false"
      inkscape:window-width="1048"
      inkscape:window-height="823"
@@ -119,14 +121,15 @@
   <g
      inkscape:groupmode="layer"
      id="background"
-     inkscape:label="background">
+     inkscape:label="background"
+     transform="translate(0,-1000)">
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect3791"
-       width="640"
-       height="640"
-       x="192"
-       y="192"
+       width="24"
+       height="24"
+       x="0"
+       y="1000"
        rx="0"
        ry="0" />
   </g>
@@ -134,18 +137,18 @@
      inkscape:label="icon"
      inkscape:groupmode="layer"
      id="icon"
-     transform="translate(0,-28.362168)">
+     transform="translate(0,-1028.3622)">
     <rect
        style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
        id="rect3776"
-       width="592"
-       height="64"
-       x="216"
-       y="796.36218" />
+       width="22.200001"
+       height="2"
+       x="0.89999962"
+       y="1050.3622" />
     <path
        style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
-       d="m 480,220.36217 0,373.5 -177.3125,-177.3125 -45.25,45.25 209.3125,209.3125 45.25,45.25 45.25,-45.25 209.3125,-209.3125 -45.25,-45.25 L 544,593.86217 l 0,-373.5 -64,0 z"
-       id="rect3769"
-       inkscape:connector-curvature="0" />
+       d="M 11 0 L 11 14.90625 L 4.21875 8.125 L 2.8125 9.53125 L 10.59375 17.3125 L 12 18.75 L 13.40625 17.3125 L 21.1875 9.53125 L 19.78125 8.125 L 13 14.90625 L 13 0 L 11 0 z "
+       transform="translate(0,1028.3622)"
+       id="rect3006" />
   </g>
 </svg>

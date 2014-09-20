@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1024"
-   height="1024"
+   width="24"
+   height="24"
    id="svg4909"
    version="1.1"
    inkscape:version="0.48.2 r9819"
@@ -24,11 +24,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="540.31839"
-     inkscape:cy="520"
+     inkscape:zoom="5.6"
+     inkscape:cx="12.588029"
+     inkscape:cy="3.0890579"
      inkscape:document-units="px"
-     inkscape:current-layer="icon"
+     inkscape:current-layer="background"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="852"
@@ -50,23 +50,25 @@
   <g
      inkscape:groupmode="layer"
      id="background"
-     inkscape:label="background">
+     inkscape:label="background"
+     transform="translate(0,-1000)">
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(0,-28.3622)"
+       style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect5426"
-       width="640"
-       height="640"
-       x="192"
-       y="192" />
+       width="24"
+       height="24"
+       x="-8.8817842e-16"
+       y="1028.3622" />
   </g>
   <g
      inkscape:label="icon"
      inkscape:groupmode="layer"
      id="icon"
-     transform="translate(0,-28.362183)">
+     transform="translate(0,-1028.3622)">
     <g
        id="g2986"
-       transform="matrix(-1,0,0,1,1018.5937,0)">
+       transform="matrix(-0.0375,0,0,0.0375,30.997264,1020.0986)">
       <path
          inkscape:connector-curvature="0"
          id="rect5428"

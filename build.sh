@@ -35,7 +35,7 @@ for i in $(find src -type f -name "*.svg"); do
     -p /usr/bin/inkscape \
     -t Android \
     -i .tmp/$file \
-    -s 36 \
+    -s 24 \
     -o dist \
     -b $base \
     -f
