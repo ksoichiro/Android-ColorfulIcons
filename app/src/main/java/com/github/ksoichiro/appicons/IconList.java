@@ -43,6 +43,7 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_arrow_down, "ic_action_arrow_down"));
         add(new Icon(R.drawable.ic_action_arrow_left_right, "ic_action_arrow_left_right"));
         add(new Icon(R.drawable.ic_action_arrow_up_down, "ic_action_arrow_up_down"));
+        add(new Icon(R.drawable.ic_action_change, "ic_action_change"));
     }
 
 }
