@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class IconList extends ArrayList<Icon> {
 
     public IconList() {
+        add(new Icon(R.drawable.ic_action_caution, "ic_action_caution"));
         add(new Icon(R.drawable.ic_action_clock, "ic_action_clock"));
         add(new Icon(R.drawable.ic_action_comment, "ic_action_comment"));
         add(new Icon(R.drawable.ic_action_comment2, "ic_action_comment2"));
@@ -32,6 +33,12 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_done, "ic_action_done"));
         add(new Icon(R.drawable.ic_action_plus, "ic_action_plus"));
         add(new Icon(R.drawable.ic_action_star, "ic_action_star"));
+        add(new Icon(R.drawable.ic_action_arrow_left, "ic_action_arrow_left"));
+        add(new Icon(R.drawable.ic_action_arrow_right, "ic_action_arrow_right"));
+        add(new Icon(R.drawable.ic_action_arrow_up, "ic_action_arrow_up"));
+        add(new Icon(R.drawable.ic_action_arrow_down, "ic_action_arrow_down"));
+        add(new Icon(R.drawable.ic_action_arrow_left_right, "ic_action_arrow_left_right"));
+        add(new Icon(R.drawable.ic_action_arrow_up_down, "ic_action_arrow_up_down"));
     }
 
 }
