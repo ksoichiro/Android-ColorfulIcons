@@ -49,6 +49,26 @@ $ ./gradlew installDebug
 - [ ] play
 - [ ] pause
 - [ ] refresh
+- [ ] other settings
+- [ ] other edit
+- [ ] cut
+- [ ] copy
+- [ ] paste
+- [ ] other arrows
+- [ ] other clocks
+- [ ] back (arrrrow and x)
+- [ ] calendar
+- [ ] document
+- [ ] new document
+- [ ] bookmark with star
+- [ ] keyboard
+- [ ] other mails
+- [ ] export
+- [ ] import
+- [ ] share
+- [ ] attach
+- [ ] sort
+- [ ] send
 
 ## License
 
