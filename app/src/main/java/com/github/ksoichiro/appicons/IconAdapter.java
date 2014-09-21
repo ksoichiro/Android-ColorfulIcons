@@ -7,8 +7,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.util.List;
-
 public class IconAdapter extends ArrayAdapter<Icon> {
 
     public interface OnClickListener {
@@ -17,8 +15,8 @@ public class IconAdapter extends ArrayAdapter<Icon> {
 
     private OnClickListener mOnClickListener;
 
-    public IconAdapter(final Context context, List<Icon> objects) {
-        super(context, R.layout.list_item_icon, R.id.description, objects);
+    public IconAdapter(final Context context) {
+        super(context, R.layout.list_item_icon, R.id.description, new IconList());
     }
 
     @Override
