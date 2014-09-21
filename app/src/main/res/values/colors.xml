@@ -3,7 +3,7 @@
     <color name="theme">#8bc34a</color>
     <color name="ab">#689f38</color>
     <color name="list_default">#8bc34a</color>
-    <color name="list_pressed">#f1f8e9</color>
+    <color name="list_pressed">#c5e1a5</color>
     <color name="divider">#689f38</color>
     <color name="text_list">#ff212121</color>
     <color name="edit_text_highlight">#ffb2ebf2</color>

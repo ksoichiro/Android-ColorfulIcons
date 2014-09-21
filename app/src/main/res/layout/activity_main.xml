@@ -1,123 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/theme">
 
-    <LinearLayout
+    <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:divider="@color/divider"
+        android:dividerHeight="1px" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_edit" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_overflow" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_clock" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_comment" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_download" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_friend" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_fullscreen" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_help" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_history" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_next" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_prev" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_reload" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_settings" />
-
-        <include layout="@layout/divider" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_action"
-            android:src="@drawable/ic_action_tag" />
-    </LinearLayout>
-
-</ScrollView>
+</LinearLayout>
