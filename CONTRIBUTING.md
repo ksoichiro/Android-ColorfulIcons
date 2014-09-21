@@ -86,7 +86,7 @@ $ ./gradlew installDebug
 1. Check if your icons are correctly generated.
 1. Add your icon to sample Android app. (See below)(optional)
 1. Check it on Android app. (optional)
-1. Edit `app` image. (optional)
+1. Edit `app` image with GIMP and `drawable-xxhdpi` icon. (optional)
 1. Commit your icons.
 1. Send a pull request!
 
