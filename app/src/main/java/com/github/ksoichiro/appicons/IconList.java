@@ -38,6 +38,7 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_plus, "ic_action_plus"));
         add(new Icon(R.drawable.ic_action_minus, "ic_action_minus"));
         add(new Icon(R.drawable.ic_action_stop, "ic_action_stop"));
+        add(new Icon(R.drawable.ic_action_stop2, "ic_action_stop2"));
         add(new Icon(R.drawable.ic_action_star, "ic_action_star"));
         add(new Icon(R.drawable.ic_action_arrow_left, "ic_action_arrow_left"));
         add(new Icon(R.drawable.ic_action_arrow_right, "ic_action_arrow_right"));
