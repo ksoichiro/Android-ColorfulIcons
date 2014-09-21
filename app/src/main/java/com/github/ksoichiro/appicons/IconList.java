@@ -10,6 +10,7 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_comment, "ic_action_comment"));
         add(new Icon(R.drawable.ic_action_comment2, "ic_action_comment2"));
         add(new Icon(R.drawable.ic_action_comment3, "ic_action_comment3"));
+        add(new Icon(R.drawable.ic_action_comment4, "ic_action_comment4"));
         add(new Icon(R.drawable.ic_action_download, "ic_action_download"));
         add(new Icon(R.drawable.ic_action_upload, "ic_action_upload"));
         add(new Icon(R.drawable.ic_action_edit, "ic_action_edit"));
@@ -47,6 +48,8 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_arrow_left_right, "ic_action_arrow_left_right"));
         add(new Icon(R.drawable.ic_action_arrow_up_down, "ic_action_arrow_up_down"));
         add(new Icon(R.drawable.ic_action_change, "ic_action_change"));
+        add(new Icon(R.drawable.ic_action_bookmark, "ic_action_bookmark"));
+        add(new Icon(R.drawable.ic_action_bookmark2, "ic_action_bookmark2"));
     }
 
 }
