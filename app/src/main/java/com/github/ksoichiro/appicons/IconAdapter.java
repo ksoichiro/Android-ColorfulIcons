@@ -18,7 +18,7 @@ public class IconAdapter extends ArrayAdapter<Icon> {
     private OnClickListener mOnClickListener;
 
     public IconAdapter(final Context context, List<Icon> objects) {
-        super(context, R.layout.list_item_main, R.id.description, objects);
+        super(context, R.layout.list_item_icon, R.id.description, objects);
     }
 
     @Override
