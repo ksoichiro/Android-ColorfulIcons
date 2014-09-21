@@ -39,7 +39,7 @@ $ ./gradlew installDebug
 - [ ] undo
 - [ ] redo
 - [ ] flag
-- [ ] bookmark
+- [x] bookmark
 - [ ] cloud
 - [ ] bold
 - [ ] italic
@@ -63,8 +63,8 @@ $ ./gradlew installDebug
 - [ ] bookmark with star
 - [ ] keyboard
 - [ ] other mails
-- [ ] export
-- [ ] import
+- [x] export
+- [x] import
 - [ ] share
 - [ ] attach
 - [ ] sort
