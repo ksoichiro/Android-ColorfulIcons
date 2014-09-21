@@ -31,6 +31,25 @@ You can check how they looks like on Android app by this command:
 $ ./gradlew installDebug
 ```
 
+## TODO
+
+- [ ] map
+- [ ] shield
+- [ ] trash
+- [ ] undo
+- [ ] redo
+- [ ] flag
+- [ ] bookmark
+- [ ] cloud
+- [ ] bold
+- [ ] italic
+- [ ] movie
+- [ ] telephone
+- [ ] friends
+- [ ] play
+- [ ] pause
+- [ ] refresh
+
 ## License
 
 Copyright (c) 2014 Soichiro Kashima  
