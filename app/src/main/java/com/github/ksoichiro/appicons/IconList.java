@@ -11,6 +11,7 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_comment2, "ic_action_comment2"));
         add(new Icon(R.drawable.ic_action_comment3, "ic_action_comment3"));
         add(new Icon(R.drawable.ic_action_download, "ic_action_download"));
+        add(new Icon(R.drawable.ic_action_upload, "ic_action_upload"));
         add(new Icon(R.drawable.ic_action_edit, "ic_action_edit"));
         add(new Icon(R.drawable.ic_action_friend, "ic_action_friend"));
         add(new Icon(R.drawable.ic_action_fullscreen, "ic_action_fullscreen"));
