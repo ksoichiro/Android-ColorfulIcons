@@ -67,7 +67,7 @@ $ ./gradlew installDebug
 - [x] import
 - [ ] share
 - [ ] attach
-- [ ] sort
+- [x] sort
 - [ ] send
 
 ## License
