@@ -1,7 +1,52 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/AppActionBarStyle</item>
+        <item name="actionOverflowButtonStyle">@style/AppActionOverflowButtonStyle</item>
+        <item name="homeAsUpIndicator">@drawable/ic_ab_back</item>
     </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:buttonStyle">@style/AppButtonStyle</item>
+        <item name="android:editTextStyle">@style/AppEditTextStyle</item>
+    </style>
+
+    <style name="AppActionBarStyle" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/actionbar_background</item>
+        <item name="titleTextStyle">@style/AppActionBarTitleTextStyle</item>
+    </style>
+
+    <style name="AppActionBarTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="AppActionOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <style name="AppButtonStyle" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_normal</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+    </style>
+
+    <style name="AppEditTextStyle" parent="android:Widget.EditText" />
+
+    <style name="AppButtonStyle.List" parent="AppButtonStyle">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/selectable_background_list</item>
+        <item name="android:textColor">@color/text_list</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="AppTextViewStyle" parent="android:Widget.TextView" />
+
+    <style name="AppTextViewStyle.Normal" parent="android:Widget.TextView" />
+
+    <style name="AppTextViewStyle.Light" parent="android:Widget.TextView" />
 
 </resources>
 
