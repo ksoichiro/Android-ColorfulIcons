@@ -11,16 +11,17 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-if [ -d dist ]; then
-  rm -rf dist
-  mkdir dist
+TARGET=
+if [ $# -gt 0 ]; then
+  TARGET=$1
+  echo "Generate only for ${TARGET}..."
 fi
 
-mkdir -p .tmp
-for i in $(find src -type f -name "*.svg"); do
-  file=`basename $i`
-  sed -e 's/\(id=\"background\"\)/\1 style=\"display:none\"/' $i > .tmp/$file
-  base=`echo $file | sed -e 's/\.[^\.]*$//'`
+function gen() {
+  local path=$1
+  local file=`basename $1`
+  sed -e 's/\(id=\"background\"\)/\1 style=\"display:none\"/' $path > .tmp/$file
+  local base=`echo $file | sed -e 's/\.[^\.]*$//'`
   export_icons \
     -t Android \
     -i .tmp/$file \
@@ -29,7 +30,23 @@ for i in $(find src -type f -name "*.svg"); do
     -b $base \
     -f
   rm -f dist/$base/Android/*.png
-done
+}
+
+mkdir -p .tmp
+
+# all
+if [ -z $TARGET ]; then
+  if [ -d dist ]; then
+    rm -rf dist
+    mkdir dist
+  fi
+  for i in $(find src -type f -name "*.svg"); do
+    gen $i
+  done
+else
+  gen $TARGET
+fi
+
 rm -rf .tmp
 
 # Copy to sample Android app
