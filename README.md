@@ -8,16 +8,28 @@ Application icons mainly for Android.
 
 ## Usage
 
-PNG files are already built in `dist` directory.
+PNG files are in `dist` directory.  
+Just copy them to your project!
 
-But if you want to build them on your own, then just run:
+### Build icons
+
+If you want to build them on your own, then just run:
 
 ```sh
 ./build.sh
 ```
 
 PNG files will be generated in `dist` directory.
-Note that the existing files are removed while executing it.
+
+See [CONTRIBUTING](CONTRIBUTING.md) for more details.
+
+## Sample Android app
+
+You can check how they looks like on Android app by this command:
+
+```sh
+$ ./gradlew installDebug
+```
 
 ## License
 
