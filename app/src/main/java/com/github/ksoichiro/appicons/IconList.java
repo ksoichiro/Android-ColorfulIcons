@@ -22,6 +22,9 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_lock, "ic_action_lock"));
         add(new Icon(R.drawable.ic_action_unlock, "ic_action_unlock"));
         add(new Icon(R.drawable.ic_action_mail, "ic_action_mail"));
+        add(new Icon(R.drawable.ic_action_camera, "ic_action_camera"));
+        add(new Icon(R.drawable.ic_action_normalscreen, "ic_action_normalscreen"));
+        add(new Icon(R.drawable.ic_action_finish, "ic_action_finish"));
     }
 
 }
