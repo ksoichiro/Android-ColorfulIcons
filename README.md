@@ -40,7 +40,7 @@ $ ./gradlew installDebug
 - [x] redo
 - [x] flag
 - [x] bookmark
-- [ ] cloud
+- [x] cloud
 - [ ] bold
 - [ ] italic
 - [x] movie
