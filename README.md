@@ -56,7 +56,7 @@ $ ./gradlew installDebug
 - [ ] paste
 - [ ] other arrows
 - [ ] other clocks
-- [ ] back (arrrrow and x)
+- [x] back (arrow and x)
 - [ ] calendar
 - [x] document
 - [x] new document
