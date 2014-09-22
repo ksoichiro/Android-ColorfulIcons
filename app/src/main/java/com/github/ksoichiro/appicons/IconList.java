@@ -7,6 +7,7 @@ public class IconList extends ArrayList<Icon> {
     public IconList() {
         add(new Icon(R.drawable.ic_action_caution, "ic_action_caution"));
         add(new Icon(R.drawable.ic_action_clock, "ic_action_clock"));
+        add(new Icon(R.drawable.ic_action_clock2, "ic_action_clock2"));
         add(new Icon(R.drawable.ic_action_comment, "ic_action_comment"));
         add(new Icon(R.drawable.ic_action_comment2, "ic_action_comment2"));
         add(new Icon(R.drawable.ic_action_comment3, "ic_action_comment3"));
