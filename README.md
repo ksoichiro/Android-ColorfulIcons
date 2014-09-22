@@ -43,7 +43,7 @@ $ ./gradlew installDebug
 - [ ] cloud
 - [ ] bold
 - [ ] italic
-- [ ] movie
+- [x] movie
 - [ ] telephone
 - [ ] friends
 - [ ] play
