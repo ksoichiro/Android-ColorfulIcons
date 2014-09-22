@@ -16,7 +16,6 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_edit, "ic_action_edit"));
         add(new Icon(R.drawable.ic_action_friend, "ic_action_friend"));
         add(new Icon(R.drawable.ic_action_fullscreen, "ic_action_fullscreen"));
-        add(new Icon(R.drawable.ic_action_help, "ic_action_help"));
         add(new Icon(R.drawable.ic_action_history, "ic_action_history"));
         add(new Icon(R.drawable.ic_action_next, "ic_action_next"));
         add(new Icon(R.drawable.ic_action_overflow, "ic_action_overflow"));
@@ -30,7 +29,6 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_camera, "ic_action_camera"));
         add(new Icon(R.drawable.ic_action_normalscreen, "ic_action_normalscreen"));
         add(new Icon(R.drawable.ic_action_finish, "ic_action_finish"));
-        add(new Icon(R.drawable.ic_action_info, "ic_action_info"));
         add(new Icon(R.drawable.ic_action_check, "ic_action_check"));
         add(new Icon(R.drawable.ic_action_check2, "ic_action_check2"));
         add(new Icon(R.drawable.ic_action_check3, "ic_action_check3"));
@@ -39,6 +37,12 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_add, "ic_action_add"));
         add(new Icon(R.drawable.ic_action_plus, "ic_action_plus"));
         add(new Icon(R.drawable.ic_action_minus, "ic_action_minus"));
+        add(new Icon(R.drawable.ic_action_info, "ic_action_info"));
+        add(new Icon(R.drawable.ic_action_help, "ic_action_help"));
+        add(new Icon(R.drawable.ic_action_plus2, "ic_action_plus2"));
+        add(new Icon(R.drawable.ic_action_minus2, "ic_action_minus2"));
+        add(new Icon(R.drawable.ic_action_info2, "ic_action_info2"));
+        add(new Icon(R.drawable.ic_action_help2, "ic_action_help2"));
         add(new Icon(R.drawable.ic_action_stop, "ic_action_stop"));
         add(new Icon(R.drawable.ic_action_stop2, "ic_action_stop2"));
         add(new Icon(R.drawable.ic_action_star, "ic_action_star"));
