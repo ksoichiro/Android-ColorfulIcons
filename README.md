@@ -58,7 +58,7 @@ $ ./gradlew installDebug
 - [ ] other clocks
 - [ ] back (arrrrow and x)
 - [ ] calendar
-- [ ] document
+- [x] document
 - [ ] new document
 - [ ] bookmark with star
 - [ ] keyboard

@@ -60,6 +60,7 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_sort, "ic_action_sort"));
         add(new Icon(R.drawable.ic_action_undo, "ic_action_undo"));
         add(new Icon(R.drawable.ic_action_redo, "ic_action_redo"));
+        add(new Icon(R.drawable.ic_action_document, "ic_action_document"));
     }
 
 }
