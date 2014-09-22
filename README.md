@@ -48,7 +48,7 @@ $ ./gradlew installDebug
 - [ ] friends
 - [ ] play
 - [ ] pause
-- [ ] refresh
+- [x] refresh
 - [ ] other settings
 - [ ] other edit
 - [ ] cut
