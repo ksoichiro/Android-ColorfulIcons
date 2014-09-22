@@ -59,13 +59,13 @@ $ ./gradlew installDebug
 - [ ] back (arrrrow and x)
 - [ ] calendar
 - [x] document
-- [ ] new document
+- [x] new document
 - [ ] bookmark with star
 - [ ] keyboard
 - [ ] other mails
 - [x] export
 - [x] import
-- [ ] share
+- [x] share
 - [ ] attach
 - [x] sort
 - [ ] send
