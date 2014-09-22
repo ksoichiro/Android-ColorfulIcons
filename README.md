@@ -36,8 +36,8 @@ $ ./gradlew installDebug
 - [ ] map
 - [ ] shield
 - [ ] trash
-- [ ] undo
-- [ ] redo
+- [x] undo
+- [x] redo
 - [ ] flag
 - [x] bookmark
 - [ ] cloud
