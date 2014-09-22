@@ -53,6 +53,8 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_export, "ic_action_export"));
         add(new Icon(R.drawable.ic_action_import, "ic_action_import"));
         add(new Icon(R.drawable.ic_action_sort, "ic_action_sort"));
+        add(new Icon(R.drawable.ic_action_undo, "ic_action_undo"));
+        add(new Icon(R.drawable.ic_action_redo, "ic_action_redo"));
     }
 
 }
