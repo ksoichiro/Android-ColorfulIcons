@@ -66,7 +66,7 @@ $ ./gradlew installDebug
 - [x] export
 - [x] import
 - [x] share
-- [ ] attach
+- [x] attach
 - [x] sort
 - [ ] send
 
