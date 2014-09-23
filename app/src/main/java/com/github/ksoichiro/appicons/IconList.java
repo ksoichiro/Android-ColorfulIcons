@@ -96,6 +96,8 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_folder3, "ic_action_folder3"));
         add(new Icon(R.drawable.ic_action_out, "ic_action_out"));
         add(new Icon(R.drawable.ic_action_in, "ic_action_in"));
+        add(new Icon(R.drawable.ic_action_zoomin, "ic_action_zoomin"));
+        add(new Icon(R.drawable.ic_action_zoomout, "ic_action_zoomout"));
     }
 
 }
