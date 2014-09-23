@@ -29,18 +29,23 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-while getopts af: flag
+while getopts af:t: flag
 do
   case ${flag} in
     a)
       ALL_TYPES=1;;
     f)
       TARGET=${OPTARG};;
+    t)
+      COLOR_TYPE=${OPTARG};;
   esac
 done
 
 if [ ! -z $TARGET ]; then
   echo "Generate only for ${TARGET}..."
+fi
+if [ ! -z $COLOR_TYPE ]; then
+  echo "Color: ${COLOR_TYPE}"
 fi
 
 function gen() {
@@ -244,13 +249,51 @@ if [ -z $TARGET ]; then
     genSomeIcons $i
   done
 else
-  genSomeIcons $TARGET
+  if [ ! -z $COLOR_TYPE ]; then
+    case $COLOR_TYPE in
+      "holo_light" )       genHoloLight      $TARGET ;;
+      "holo_dark" )        genHoloDark       $TARGET ;;
+      "holo_blue" )        genHoloBlue       $TARGET ;;
+      "holo_purple" )      genHoloPurple     $TARGET ;;
+      "holo_green" )       genHoloGreen      $TARGET ;;
+      "holo_yellow" )      genHoloYellow     $TARGET ;;
+      "holo_red" )         genHoloRed        $TARGET ;;
+      "holo_dark_blue" )   genHoloDarkBlue   $TARGET ;;
+      "holo_dark_purple" ) genHoloDarkPurple $TARGET ;;
+      "holo_dark_green" )  genHoloDarkGreen  $TARGET ;;
+      "holo_dark_yellow" ) genHoloDarkYellow $TARGET ;;
+      "holo_dark_red" )    genHoloDarkRed    $TARGET ;;
+      "mtrl_red" )         genMtrlRed        $TARGET ;;
+      "mtrl_pink" )        genMtrlPink       $TARGET ;;
+      "mtrl_purple" )      genMtrlPurple     $TARGET ;;
+      "mtrl_deep_purple" ) genMtrlDeepPurple $TARGET ;;
+      "mtrl_indigo" )      genMtrlIndigo     $TARGET ;;
+      "mtrl_blue" )        genMtrlBlue       $TARGET ;;
+      "mtrl_light_blue" )  genMtrlLightBlue  $TARGET ;;
+      "mtrl_cyan" )        genMtrlCyan       $TARGET ;;
+      "mtrl_teal" )        genMtrlTeal       $TARGET ;;
+      "mtrl_green" )       genMtrlGreen      $TARGET ;;
+      "mtrl_light_green" ) genMtrlLightGreen $TARGET ;;
+      "mtrl_lime" )        genMtrlLime       $TARGET ;;
+      "mtrl_yellow" )      genMtrlYellow     $TARGET ;;
+      "mtrl_amber" )       genMtrlAmber      $TARGET ;;
+      "mtrl_orange" )      genMtrlOrange     $TARGET ;;
+      "mtrl_deep_orange" ) genMtrlDeepOrange $TARGET ;;
+      "mtrl_brown" )       genMtrlBrown      $TARGET ;;
+      "mtrl_grey" )        genMtrlGrey       $TARGET ;;
+      "mtrl_blue_grey" )   genMtrlBlueGrey   $TARGET ;;
+      "black" )            genBlack          $TARGET ;;
+      "white" )            genWhite          $TARGET ;;
+    esac
+  else
+    genSomeIcons $TARGET
+  fi
 fi
 
 rm -rf .tmp
 
 # Copy to sample Android app
-for i in $(find dist -mindepth 1 -maxdepth 1); do
-  cp -pR ${i}/res app/src/main/
-done
+if [ -d dist/holo_dark ]; then
+  cp -pR dist/holo_dark/res app/src/main/
+fi
 
