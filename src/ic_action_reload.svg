@@ -24,17 +24,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.481547"
-     inkscape:cx="1.3256618"
-     inkscape:cy="8.1256673"
+     inkscape:zoom="34.916667"
+     inkscape:cx="12"
+     inkscape:cy="12.000017"
      inkscape:document-units="px"
      inkscape:current-layer="icon"
-     showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="852"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1032"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -67,9 +71,8 @@
      id="icon"
      transform="translate(0,-1028.3622)">
     <path
+       id="path3014"
        style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
-       d="m 12.531251,1028.706 -7.500001,4.6876 7.500001,4.6874 0,-4.0557 C 16.70178,1034.299 20,1037.7693 20,1042.0117 c 0,4.4211 -3.581721,8.0059 -8,8.0059 -4.4182782,0 -8,-3.5848 -8,-8.0059 0,-1.2992 0.3094337,-2.5255 0.8583984,-3.6104 L 3.15625,1037.3369 C 2.4181063,1038.7321 2,1040.323 2,1042.0117 c 0,5.5263 4.4771525,10.0068 10,10.0068 5.522848,0 10,-4.4805 10,-10.0068 0,-5.3481 -4.192863,-9.7158 -9.468749,-9.9923 l 0,-3.3134 z"
-       id="path3755"
-       inkscape:connector-curvature="0" />
+       d="m 12.5312,1028.3622 -5.3992,3.3745 5.3992,3.3745 0,-2.9246 0,-1.4398 0,-2.3846 z m 5e-5,2 0,2 c 1.511645,0.099 2.833075,0.7388 4,1.5625 l 0,-2.4375 c -1.21513,-0.6214 -2.560427,-1.0496 -4,-1.125 z m 4,1.125 0,2.4375 c 2.052544,1.4488 3.46875,3.7328 3.46875,6.4375 0,4.4211 -3.581721,8 -8,8 -4.4182782,0 -8,-3.5789 -8,-8 0,-1.2992 0.2947853,-2.5401 0.84375,-3.625 l -1.6875,-1.0625 C 2.4181063,1037.0699 2,1038.6735 2,1040.3622 c 0,5.5263 4.4771525,10 10,10 5.522848,0 10,-4.4737 10,-10 0,-3.8888 -2.230553,-7.2189 -5.46875,-8.875 z" />
   </g>
 </svg>

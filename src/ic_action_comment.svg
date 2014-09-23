@@ -24,17 +24,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="6.6206265"
-     inkscape:cy="17.337179"
+     inkscape:zoom="34.916667"
+     inkscape:cx="7.3174224"
+     inkscape:cy="12"
      inkscape:document-units="px"
-     inkscape:current-layer="background"
-     showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="852"
+     inkscape:current-layer="icon"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1032"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985" />
+  </sodipodi:namedview>
   <metadata
      id="metadata4914">
     <rdf:RDF>
@@ -66,9 +71,9 @@
      id="icon"
      transform="translate(0,-1028.3622)">
     <path
-       style="opacity:0.8;fill:#ffffff;fill-opacity:0.94117647;stroke:none"
-       d="M 2 0 C 0.8954305 0 0 0.8954305 0 2 L 0 15 C 0 16.104569 0.8954305 17 2 17 L 17 17 L 24 24 L 24 16 L 24 2 C 24 0.8954305 23.10457 0 22 0 L 2 0 z M 3 2 L 4 2 L 20 2 L 21 2 C 21.5523 2 22 2.4477 22 3 L 22 4 C 22 4.5523 21.5523 5 21 5 L 20 5 L 4 5 L 3 5 C 2.4477 5 2 4.5523 2 4 L 2 3 C 2 2.4477 2.4477 2 3 2 z M 3 7 L 4 7 L 20 7 L 21 7 C 21.5523 7 22 7.4477 22 8 L 22 9 C 22 9.5523 21.5523 10 21 10 L 20 10 L 4 10 L 3 10 C 2.4477 10 2 9.5523 2 9 L 2 8 C 2 7.4477 2.4477 7 3 7 z M 3 12 L 4 12 L 20 12 L 21 12 C 21.5523 12 22 12.4477 22 13 L 22 14 C 22 14.5523 21.5523 15 21 15 L 20 15 L 4 15 L 3 15 C 2.4477153 15 2 14.5523 2 14 L 2 13 C 2 12.4477 2.4477 12 3 12 z "
+       style="opacity:0.8;fill:#ffffff;fill-opacity:1;stroke:none"
+       d="M 4 2 C 2.8954374 1.9960845 2.0039155 2.8954375 2 4 L 2 15 C 1.9960845 16.1046 2.8954375 17 4 17 L 17 17 L 22 22 L 22 18 L 22 17 L 22 15 L 22 14 L 22 4 C 21.998806 2.8991 21.100949 2 20 2 L 4 2 z M 5 5 L 19 5 L 19 7 L 5 7 L 5 5 z M 5 8.5 L 19 8.5 L 19 10.5 L 5 10.5 L 5 8.5 z M 5 12 L 19 12 L 19 14 L 5 14 L 5 12 z "
        transform="translate(0,1028.3622)"
-       id="path2985" />
+       id="rect2989" />
   </g>
 </svg>
