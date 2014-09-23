@@ -1,10 +1,6 @@
 ![](all.png "app-icons")
 
-Application icons mainly for Android.
-
-## Contents
-
-* Action bar icons for Android
+100+ application icons mainly for Android action buttons.  
 
 ## Usage
 
@@ -36,39 +32,39 @@ $ ./gradlew installDebug
 - [ ] map
 - [ ] shield
 - [ ] trash
+- [ ] bold
+- [ ] italic
+- [ ] telephone
+- [ ] friends
+- [ ] play
+- [ ] pause
+- [ ] other edit
+- [ ] cut
+- [ ] copy
+- [ ] paste
+- [ ] calendar
+- [ ] bookmark with star
+- [ ] keyboard
+- [ ] other mails
+- [ ] send
 - [x] undo
 - [x] redo
 - [x] flag
 - [x] bookmark
 - [x] cloud
-- [ ] bold
-- [ ] italic
 - [x] movie
-- [ ] telephone
-- [ ] friends
-- [ ] play
-- [ ] pause
 - [x] refresh
-- [ ] other settings
-- [ ] other edit
-- [ ] cut
-- [ ] copy
-- [ ] paste
+- [x] other settings
 - [x] other arrows
 - [x] other clocks
 - [x] back (arrow and x)
-- [ ] calendar
 - [x] document
 - [x] new document
-- [ ] bookmark with star
-- [ ] keyboard
-- [ ] other mails
 - [x] export
 - [x] import
 - [x] share
 - [x] attach
 - [x] sort
-- [ ] send
 
 ## License
 
