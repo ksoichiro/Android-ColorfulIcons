@@ -8,6 +8,8 @@
 # example:
 #  ./build.sh -f src/ic_action_add.svg
 #    --> generate holo dark png for ic_action_add.svg
+#  ./build.sh -t holo_blue -f src/ic_action_add.svg
+#    --> generate holo blue png for ic_action_add.svg
 #  ./build.sh
 #    --> generate holo dark png for all svgs
 #  ./build.sh -a -f src/ic_action_add.svg
@@ -230,7 +232,43 @@ function genAllTypes() {
 }
 
 function genSomeIcons() {
-  if [ -z $ALL_TYPES ]; then
+  if [ ! -z $COLOR_TYPE ]; then
+    case $COLOR_TYPE in
+      "holo_light" )       genHoloLight      $1 ;;
+      "holo_dark" )        genHoloDark       $1 ;;
+      "holo_blue" )        genHoloBlue       $1 ;;
+      "holo_purple" )      genHoloPurple     $1 ;;
+      "holo_green" )       genHoloGreen      $1 ;;
+      "holo_yellow" )      genHoloYellow     $1 ;;
+      "holo_red" )         genHoloRed        $1 ;;
+      "holo_dark_blue" )   genHoloDarkBlue   $1 ;;
+      "holo_dark_purple" ) genHoloDarkPurple $1 ;;
+      "holo_dark_green" )  genHoloDarkGreen  $1 ;;
+      "holo_dark_yellow" ) genHoloDarkYellow $1 ;;
+      "holo_dark_red" )    genHoloDarkRed    $1 ;;
+      "mtrl_red" )         genMtrlRed        $1 ;;
+      "mtrl_pink" )        genMtrlPink       $1 ;;
+      "mtrl_purple" )      genMtrlPurple     $1 ;;
+      "mtrl_deep_purple" ) genMtrlDeepPurple $1 ;;
+      "mtrl_indigo" )      genMtrlIndigo     $1 ;;
+      "mtrl_blue" )        genMtrlBlue       $1 ;;
+      "mtrl_light_blue" )  genMtrlLightBlue  $1 ;;
+      "mtrl_cyan" )        genMtrlCyan       $1 ;;
+      "mtrl_teal" )        genMtrlTeal       $1 ;;
+      "mtrl_green" )       genMtrlGreen      $1 ;;
+      "mtrl_light_green" ) genMtrlLightGreen $1 ;;
+      "mtrl_lime" )        genMtrlLime       $1 ;;
+      "mtrl_yellow" )      genMtrlYellow     $1 ;;
+      "mtrl_amber" )       genMtrlAmber      $1 ;;
+      "mtrl_orange" )      genMtrlOrange     $1 ;;
+      "mtrl_deep_orange" ) genMtrlDeepOrange $1 ;;
+      "mtrl_brown" )       genMtrlBrown      $1 ;;
+      "mtrl_grey" )        genMtrlGrey       $1 ;;
+      "mtrl_blue_grey" )   genMtrlBlueGrey   $1 ;;
+      "black" )            genBlack          $1 ;;
+      "white" )            genWhite          $1 ;;
+    esac
+  elif [ -z $ALL_TYPES ]; then
     genHoloDark $1
   else
     genAllTypes $1
@@ -249,45 +287,7 @@ if [ -z $TARGET ]; then
     genSomeIcons $i
   done
 else
-  if [ ! -z $COLOR_TYPE ]; then
-    case $COLOR_TYPE in
-      "holo_light" )       genHoloLight      $TARGET ;;
-      "holo_dark" )        genHoloDark       $TARGET ;;
-      "holo_blue" )        genHoloBlue       $TARGET ;;
-      "holo_purple" )      genHoloPurple     $TARGET ;;
-      "holo_green" )       genHoloGreen      $TARGET ;;
-      "holo_yellow" )      genHoloYellow     $TARGET ;;
-      "holo_red" )         genHoloRed        $TARGET ;;
-      "holo_dark_blue" )   genHoloDarkBlue   $TARGET ;;
-      "holo_dark_purple" ) genHoloDarkPurple $TARGET ;;
-      "holo_dark_green" )  genHoloDarkGreen  $TARGET ;;
-      "holo_dark_yellow" ) genHoloDarkYellow $TARGET ;;
-      "holo_dark_red" )    genHoloDarkRed    $TARGET ;;
-      "mtrl_red" )         genMtrlRed        $TARGET ;;
-      "mtrl_pink" )        genMtrlPink       $TARGET ;;
-      "mtrl_purple" )      genMtrlPurple     $TARGET ;;
-      "mtrl_deep_purple" ) genMtrlDeepPurple $TARGET ;;
-      "mtrl_indigo" )      genMtrlIndigo     $TARGET ;;
-      "mtrl_blue" )        genMtrlBlue       $TARGET ;;
-      "mtrl_light_blue" )  genMtrlLightBlue  $TARGET ;;
-      "mtrl_cyan" )        genMtrlCyan       $TARGET ;;
-      "mtrl_teal" )        genMtrlTeal       $TARGET ;;
-      "mtrl_green" )       genMtrlGreen      $TARGET ;;
-      "mtrl_light_green" ) genMtrlLightGreen $TARGET ;;
-      "mtrl_lime" )        genMtrlLime       $TARGET ;;
-      "mtrl_yellow" )      genMtrlYellow     $TARGET ;;
-      "mtrl_amber" )       genMtrlAmber      $TARGET ;;
-      "mtrl_orange" )      genMtrlOrange     $TARGET ;;
-      "mtrl_deep_orange" ) genMtrlDeepOrange $TARGET ;;
-      "mtrl_brown" )       genMtrlBrown      $TARGET ;;
-      "mtrl_grey" )        genMtrlGrey       $TARGET ;;
-      "mtrl_blue_grey" )   genMtrlBlueGrey   $TARGET ;;
-      "black" )            genBlack          $TARGET ;;
-      "white" )            genWhite          $TARGET ;;
-    esac
-  else
-    genSomeIcons $TARGET
-  fi
+  genSomeIcons $TARGET
 fi
 
 rm -rf .tmp
