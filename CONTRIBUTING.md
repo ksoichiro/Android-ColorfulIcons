@@ -126,3 +126,15 @@ After editing java file, please execute the following command to check if the ap
 ```sh
 $ ./gradlew installDebug
 ```
+
+## Color samples
+
+At first, generate images to a temporary directory:
+
+```sh
+$ mkdir tmp
+$ ./build.sh -a -f src/ic_action_check3.svg
+$ for i in $(find dist/*/res/drawable-hdpi/ic_action_check3*); do cp -p $i tmp; done
+```
+
+Then, open `color.xcf` with GIMP and import images in `tmp` directory as layers.
