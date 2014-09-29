@@ -105,6 +105,7 @@ public class IconList extends ArrayList<Icon> {
         add(new Icon(R.drawable.ic_action_movie, "ic_action_movie"));
         add(new Icon(R.drawable.ic_action_alarm, "ic_action_alarm"));
         add(new Icon(R.drawable.ic_action_alarm2, "ic_action_alarm2"));
+        add(new Icon(R.drawable.ic_action_terminal, "ic_action_terminal"));
     }
 
 }
