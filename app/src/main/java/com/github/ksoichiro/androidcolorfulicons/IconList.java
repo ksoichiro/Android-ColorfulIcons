@@ -1,4 +1,4 @@
-package com.github.ksoichiro.appicons;
+package com.github.ksoichiro.androidcolorfulicons;
 
 import java.util.ArrayList;
 

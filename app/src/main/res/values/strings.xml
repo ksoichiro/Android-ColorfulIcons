@@ -1,15 +1,15 @@
 <resources>
 
-    <string name="app_name">app-icons</string>
+    <string name="app_name">Android-ColorfulIcons</string>
     <string name="activity_title_about">About this app</string>
     <string name="action_about">About this app</string>
 
     <string name="msg_version">Version</string>
     <string name="msg_about_fork_me_on_github">Fork me on GitHub!</string>
-    <string name="msg_about_github_url">https://github.com/ksoichiro/app-icons</string>
+    <string name="msg_about_github_url">https://github.com/ksoichiro/Android-ColorfulIcons</string>
     <string name="msg_about_app_description">Open source icons for mobile apps.</string>
     <string name="msg_copyright">© 2014 Soichiro Kashima All rights reserved.</string>
-    <string name="msg_about_description">Demo app for app-icons.</string>
+    <string name="msg_about_description">Demo app for Android-ColorfulIcons.</string>
     <string name="desc_about_app">About this app</string>
 
 </resources>

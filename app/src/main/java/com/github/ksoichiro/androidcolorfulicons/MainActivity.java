@@ -1,4 +1,4 @@
-package com.github.ksoichiro.appicons;
+package com.github.ksoichiro.androidcolorfulicons;
 
 import android.content.Intent;
 import android.os.Bundle;
