@@ -16,7 +16,7 @@ But if you want other icons, you can create by yourself.
 
 If you want more colorful icons, you can create them by executing a script.
 
-![](colors.png)
+![](misc/colors.png)
 
 For example, if you want icons with Holo blue color, execute this:
 
