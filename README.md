@@ -1,4 +1,4 @@
-![](all.png "app-icons")
+![](misc/all.png "app-icons")
 
 100+ application icons mainly for Android action buttons.  
 
