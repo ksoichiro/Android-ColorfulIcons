@@ -9,6 +9,19 @@ buildscript {
 
 apply plugin: 'com.android.application'
 
+repositories {
+    mavenCentral()
+    //maven {
+    //    url uri('https://oss.sonatype.org/content/repositories/snapshots/')
+    //}
+}
+
+dependencies {
+    compile project(':library')
+    //compile 'com.github.ksoichiro:androidcolorfulicons:0.1.0-SNAPSHOT'
+    compile 'com.android.support:appcompat-v7:20.0.0'
+}
+
 android {
     compileSdkVersion 20
     buildToolsVersion "20.0.0"
@@ -20,8 +33,4 @@ android {
         versionCode 1
         versionName "0.1.0"
     }
-}
-
-dependencies {
-    compile 'com.android.support:appcompat-v7:20.+'
 }
