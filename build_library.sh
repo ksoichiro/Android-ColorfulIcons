@@ -2,8 +2,10 @@
 
 # Copy dist directory's icons to library
 
-cp -pR dist/holo_dark/res/drawable-xhdpi library/src/main/res/
-cp -pR dist/holo_dark/res/drawable-xxhdpi library/src/main/res/
+COLOR_TYPE=holo_dark
+
+cp -pR dist/${COLOR_TYPE}/res/drawable-xhdpi library/src/main/res/
+cp -pR dist/${COLOR_TYPE}/res/drawable-xxhdpi library/src/main/res/
 
 for i in $(find library/src/main/res -type f); do
     if [[ "${i}" =~ ^ic_action_aci_ ]]; then
