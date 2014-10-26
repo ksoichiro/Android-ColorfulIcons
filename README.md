@@ -1,5 +1,8 @@
 ![](misc/all.png "app-icons")
 
+
+[![Maven Central](http://img.shields.io/maven-central/v/com.github.ksoichiro/androidcolorfulicons.svg)](https://github.com/ksoichiro/Android-ColorfulIcons/releases/latest)
+
 100+ application icons mainly for Android action buttons.  
 
 ## Usage
